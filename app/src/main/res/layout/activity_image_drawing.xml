@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_filters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amine.securityapp.imageDrawing">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/color_layout"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/draw"
+            android:layout_height="380dp"
+            android:scaleType="center" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/camera"
+        android:src="@drawable/camera2"
+        android:layout_marginLeft="3dp" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/save"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/save2"/>
+
+
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/yellow"
+        android:background="@drawable/yellow"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/blue"
+        android:background="@drawable/blue"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="470dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/red"
+        android:background="@drawable/red"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="472dp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/options"
+        android:background="@drawable/buttoncolor2"
+        android:text="options"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="472dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/white"
+        android:background="@drawable/white"
+        android:layout_marginTop="470dp"/>
+
+
+    <Button
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/buttoncolor"
+        android:text="Image filters"
+        android:id="@+id/iff"
+        android:textSize="12dp"/>
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="95dp"
+        android:background="@drawable/buttoncolor"
+        android:id="@+id/ie"
+        android:text="Image enhancement"
+        android:textSize="11dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="200dp"
+        android:text="Image processing"
+        android:id="@+id/ip"
+        android:background="@drawable/buttoncolor"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/buttoncolor"
+        android:id="@+id/id"
+        android:text="Image drawing"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/anticlockwise"
+        android:src="@drawable/rotate_anticlockwise1"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/clockwise"
+        android:src="@drawable/rotate_cw1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="rotate-"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="44dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="rotate+"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="175dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="save"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/green"
+        android:background="@drawable/green"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="472dp"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="camera"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/save"
+        android:layout_alignStart="@+id/camera" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="335dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="gallery"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:id="@+id/gallery"
+        android:layout_marginLeft="335dp"
+        android:src="@drawable/gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

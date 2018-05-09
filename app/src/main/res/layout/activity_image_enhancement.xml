@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_editing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/blur1"
+    tools:context="com.example.amine.securityapp.imageEditing">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/draw1">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="420dp"
+            android:id="@+id/draw" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/parent"
+        android:layout_below="@+id/button">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i5"
+            android:layout_toRightOf="@+id/i4">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/camera"
+                android:background="@mipmap/ic_cam"
+                android:text="General"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i6"
+            android:layout_toRightOf="@+id/i5">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/gallery"
+                android:background="@mipmap/ic_gallery"
+                android:text="General"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i7"
+            android:layout_toRightOf="@+id/i6">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/save"
+                android:background="@mipmap/ic_save"
+                android:text="General"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i8"
+            android:layout_toRightOf="@+id/i7">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/rotate"
+                android:background="@mipmap/ic_rotate"
+                android:text="General"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i9"
+            android:layout_toRightOf="@+id/i8">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/share"
+                android:background="@mipmap/ic_share"
+                android:text="General"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/i10"
+        android:layout_toRightOf="@+id/i9">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/delete"
+            android:background="@mipmap/ic_delete"
+            android:text="General"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/draw1"
+        android:id="@+id/btn_process">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/brightness"
+            android:background="@drawable/button_shape"
+            android:text="brightness"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/contrast"
+            android:layout_toRightOf="@+id/brightness"
+            android:text="contrast"
+            android:textSize="12dp"
+            android:background="@drawable/button_shape" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/saturation"
+            android:layout_toRightOf="@+id/contrast"
+            android:text="saturation"
+            android:textSize="12dp"
+            android:background="@drawable/button_shape" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/b_w"
+            android:layout_toRightOf="@+id/saturation"
+            android:textSize="15dp"
+            android:text="B/W"
+            android:background="@drawable/button_shape" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btn_process"
+        android:id="@+id/btn_process1">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/negative"
+            android:background="@drawable/button_shape"
+            android:text="Negative"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/blue"
+            android:layout_toRightOf="@+id/negative"
+            android:text="blue"
+            android:textSize="12dp"
+            android:background="@drawable/button_shape" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/green"
+            android:layout_toRightOf="@+id/blue"
+            android:text="green"
+            android:textSize="12dp"
+            android:background="@drawable/button_shape" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="@dimen/media_icon"
+            android:id="@+id/red"
+            android:layout_toRightOf="@+id/green"
+            android:textSize="15dp"
+            android:text="red"
+            android:background="@drawable/button_shape" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

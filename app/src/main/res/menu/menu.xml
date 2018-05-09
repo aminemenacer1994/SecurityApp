@@ -1,0 +1,58 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/profile1"
+        android:title="@string/profile"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/flashlight"
+        android:title="@string/flashlight"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/languages"
+        android:icon="@mipmap/lang"
+        android:orderInCategory="100"
+        android:title="Languages"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/instructions"
+        android:icon="@drawable/in"
+        android:orderInCategory="100"
+        android:title="Instructions"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/inf"
+        android:title="@string/info"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tips"
+        android:orderInCategory="100"
+        android:title="@string/safety_tips" />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/logout"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

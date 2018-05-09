@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "974171575164",
+    "firebase_url": "https://security-4c591.firebaseio.com",
+    "project_id": "security-4c591",
+    "storage_bucket": "security-4c591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974171575164:android:7ede24e0bf168e3a",
+        "android_client_info": {
+          "package_name": "com.example.amine.securityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974171575164-8ucb5vf3su6u2sok5ugfrk1p9hio85rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIodjt7H8zGxOjm8lOFCT3ySFQEW0PXT0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

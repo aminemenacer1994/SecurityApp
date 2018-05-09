@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="audio_title">Audio</string>
+    <string name="audio_info">اضغط على هيئة التصنيع العسكري لبدء التسجيل</string>
+
+
+    <string name="camera_title">الة تصوير</string>
+
+
+    <string name="info_vid">وضعية الفيديو:</string>
+    <string name="info1">يوفر القدرة على تسجيل الفيديو أي حادث يحدث في الوقت الحقيقي وتكون قادرة على إرسالها إلى السلطات، وإرسالها إلى العائلة والأصدقاء أو آخر على وسائل الاعلام الاجتماعية. ويمكن أيضا أن يتم حفظ الفيديو على الهاتف أو خادم الويب.</string>
+
+    <string name="info_audio">وضع الصوت:</string>
+    <string name="info2">يوفر القدرة على تسجيل الصوت أي حادث يحدث في الوقت الحقيقي وتكون قادرة على إرسالها إلى السلطات، وإرسالها إلى العائلة والأصدقاء أو آخر على وسائل الاعلام الاجتماعية. ويمكن أيضا أن يتم حفظ الصوت على الهاتف أو خادم الويب.</string>
+
+    <string name="info_camera">نظام الكامرا:</string>
+    <string name="info3">يوفر القدرة على التقاط صورة فورية من أي حدث في الوقت الحقيقي، ويمكن إما مشاركة عبر تطبيقات الطرف الثالث أو تحرير الصورة باستخدام أدوات معالجة الصور. ويمكن أيضا أن يتم حفظ الصور على الهاتف أو خادم الويب.</string>
+
+    <string name="info_location">موقعك:</string>
+    <string name="info4">يوفر القدرة على العثور على موقعك على الفور بنقرة واحدة، في حين توفر أيضا سهولة الوصول إلى خرائط جوجل.</string>
+
+    <string name="info_panic_button">زر الذعر:</string>
+    <string name="info6">1 انقر فوق = تنشيط نظام الإنذار.</string>
+
+
+    <string name="camera">الة تصوير</string>
+    <string name="video">فيديو</string>
+    <string name="audio">سمعي</string>
+    <string name="location">موقعك</string>
+    <string name="emergency">أرقام الطوارئ</string>
+
+
+    <string name="theft_title">منع السرقة:</string>
+    <string name="info11">- إبقاء الأشياء الثمينة بعيدا عن الأنظار؛ بما في ذلك المحافظ والمحافظ، والهواتف المحمولة، والإلكترونيات والمجوهرات، وأبدا ترك الأشياء الثمينة الخاصة بك دون مراقبة.</string>
+    <string name="info22">- لا تحمل أكثر مما تحتاج. ترك العناصر الثمينة غير الضرورية بشكل آمن في مسكنك. تحمل فقط الحد الأدنى من المال أو بطاقات الائتمان التي سوف تحتاج لهذا اليوم.</string>
+    <string name="info33">- انتظر حتى وصولك إلى موقعك لإجراء مكالمات الهاتف الخليوي. ومع ذلك، إذا كان يجب عليك التحدث على الهاتف الخليوي الخاص بك أثناء السفر، واستخدام سماعات الرأس أو جهاز حر اليدين إلى أنه يمكنك الحفاظ على الهاتف الخاص بك آمنة وبعيدا عن الأنظار.</string>
+    <string name="safety_title">السلامة الشخصية:</string>
+    <string name="info55">- تجنب المناطق المعزولة - المرائب تحت الأرض، والأزقة، ومواقف السيارات، والمكاتب بعد ساعات العمل</string>
+    <string name="info66">- المشي مع مجموعة، وخاصة في الليل. من 7:00 حتي 05:00</string>
+    <string name="info77">- إذا كنت تشعر وكأنك يتم اتباعها، التحرك في أسرع وقت ممكن نحو أقرب مبنى مضاءة والسكان. يمكنك أيضا عبور الشارع في منتصف الطريق أو العلم أسفل سيارة عابرة للحصول على المساعدة.</string>
+
+
+    <string name="video_title">فيديو</string>
+
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="flashlight">مصباح يدوي</string>
+    <string name="info">معلومات</string>
+    <string name="safety_tips">نصائح السلامة</string>
+    <string name="exit">خروج</string>
+
+    <string name="incident_emergency">حادث طارئ</string>
+    <string name="medical_emergency">الطوارئ الطبية</string>
+    <string name="emergency_contacts">جهة اتصال للطوارئ</string>
+    <string name="fire_emergency">طوارئ الحريق</string>
+
+    <string name="incident_text">أدناه هي الأدوات التالية المتاحة للاستخدام في حالة الطوارئ الحادث</string>
+    <string name="incident_cam">الة تصوير</string>
+    <string name="incident_vid">فيديو</string>
+    <string name="incident_aud">سمعي</string>
+    <string name="incident_gps">موقعك</string>
+    <string name="incident_btn1">اتصل بالشرطة</string>
+    <string name="incident_btn2">محطات الشرطة القريبة</string>
+
+    <string name="incident_btn11">استدعاء سيارة الإسعاف</string>
+    <string name="incident_btn22">مستشفيات الأذن</string>
+
+    <string name="incident_btn111">اتصل بالمطافئ</string>
+    <string name="incident_btn222">محطات الإطفاء القريبة</string>
+
+    <string name="emergency_contact_text">فيما يلي الخيارات المتاحة للاتصال في حالات الطوارئ</string>
+    <string name="view_contact">عرض الاتصالات</string>
+    <string name="add_contacts">اضف جهات اتصال</string>
+    <string name="send_contacts">إرسال إلى جهات الاتصال</string>
+    <string name="group_contacts">الاتصال مجموعة الدردشة</string>
+
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="logout">الخروج</string>
+
+
+    <string name="fire_text">فيما يلي الأدوات التالية المتاحة للاستخدام في حالة الطوارئ الطارئة</string>
+    <string name="medical_text">فيما يلي الأدوات وأرقام الطوارئ المتوفرة للاستخدام في حالة الطوارئ الطبية</string>
+
+
+</resources>

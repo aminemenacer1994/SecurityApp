@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="audio_title">Audio</string>
+    <string name="audio_info">Appuyez sur le micro pour commencer lenregistrement</string>
+
+
+    <string name="camera_title">Camera</string>
+
+
+    <string name="info_vid">Mode video:</string>
+    <string name="info1">Fournit la possibilité de filmer tout incident survenant en temps réel et de pouvoir envoyer aux autorités, envoyer à la famille et aux amis ou poster sur les médias sociaux. Les vidéos peuvent également être enregistrées sur le téléphone ou le serveur Web.</string>
+
+    <string name="info_audio">Mode audio:</string>
+    <string name="info2">Fournit la possibilité de filmer tout incident survenant en temps réel et de pouvoir envoyer aux autorites, envoyer à la famille et aux amis ou poster sur les médias sociaux. Les vidéos peuvent également être enregistrées sur le téléphone ou le serveur Web.</string>
+
+    <string name="info_camera">Mode camera:</string>
+    <string name="info3">Fournit la possibilite de prendre une image instantanée de tout evenement en temps réel et peut soit partager a travers des applications tierces ou editer limage en utilisant des outils de traitement dimage. Les images peuvent egalement etre enregistrees sur le teléphone ou le serveur Web.</string>
+
+    <string name="info_location">Emplacement:</string>
+    <string name="info4">Fournit la possibilité de trouver votre position instantanément en un seul clic, tout en offrant un accès facile à google maps.</string>
+
+    <string name="info_panic_button">Bouton de secours:</string>
+    <string name="info6">1 Tap = Activer le système dalarme.</string>
+
+
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="location">Emplacement</string>
+    <string name="emergency">Numéros durgence</string>
+
+
+    <string name="theft_title">Prévention du vol:</string>
+    <string name="info11">- Gardez les objets de valeur à labri des regards; y compris les porte-monnaie et les portefeuilles, les telephones cellulaires, lelectronique et les bijoux, et ne laissez jamais vos objets de valeur sans surveillance.</string>
+    <string name="info22">- Ne portez pas plus que ce dont vous avez besoin. Laissez les objets de valeur inutiles en toute securité dans votre residence. Ne gardez que le minimum dargent ou de cartes de credit dont vous aurez besoin pour la journee.</string>
+    <string name="info33">- Attendez jusqua ce que vous arriviez a votre emplacement pour faire des appels telephoniques. Cependant, si vous devez parler sur votre telephone portable en voyage, utilisez un casque ou un appareil mains libres pour que vous puissiez garder votre telephone en toute securite et hors de vue.</string>
+    <string name="safety_title">Securite personnelle: </string>
+    <string name="info55">- Evitez les zones isolees - les garages souterrains, les allees, les stationnements et les bureaux apres les heures douverture</string>
+    <string name="info66">- Marcher avec un groupe, surtout la nuit. De 19h a 5h</string>
+    <string name="info77">- Si vous avez limpression detre suivi, deplacez vous aussi vite que possible vers le batiment eclaire et habite le plus proche. Vous pouvez egalement traverser la rue au milieu de la route ou flechir une voiture de passage pour obtenir de laide.</string>
+
+
+    <string name="video_title">Video</string>
+
+    <string name="home">Maison</string>
+    <string name="flashlight">Lampe de poche</string>
+    <string name="info">Information</string>
+    <string name="safety_tips">conseils de securite</string>
+    <string name="exit">Sorte</string>
+
+    <string name="incident_emergency">Incident durgence</string>
+    <string name="medical_emergency">Urgence medicale</string>
+    <string name="emergency_contacts">Contacts durgence</string>
+    <string name="fire_emergency">Urgence incendie</string>
+
+    <string name="incident_text">Vous trouverez ci-dessous les outils suivants à utiliser en cas durgence</string>
+    <string name="incident_cam">Caméra</string>
+    <string name="incident_vid">vidéo</string>
+    <string name="incident_aud">laudio</string>
+    <string name="incident_gps">emplacement</string>
+    <string name="incident_btn1">Appelle la police</string>
+    <string name="incident_btn2">Commissariats de police proches</string>
+
+    <string name="incident_btn11">Appeler lambulance</string>
+    <string name="incident_btn22">Hôpitaux à proximité</string>
+
+    <string name="incident_btn111">Call the Fire department</string>
+    <string name="incident_btn222">Appelez les pompiers</string>
+
+    <string name="emergency_contact_text">Voici les options disponibles pour les contacts durgence</string>
+    <string name="view_contact">Voir les contacts</string>
+    <string name="add_contacts">Ajouter des contacts</string>
+    <string name="send_contacts">Envoyer aux contacts</string>
+    <string name="group_contacts">Groupe de discussion</string>
+
+    <string name="profile">page de profil</string>
+    <string name="logout">Déconnexion</string>
+
+
+    <string name="fire_text">Vous trouverez ci-dessous les outils suivants à utiliser en cas dincendie</string>
+    <string name="medical_text">Vous trouverez cidessous les outils et numéros durgence suivants à utiliser en cas durgence médicale</string>
+
+
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_filters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amine.securityapp.imagePens">
+
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="420dp"
+        android:text="Pens and pencils:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:id="@+id/textView13" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/blue"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/blue"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/green"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/green"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/yellow"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/yellow"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/red"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="265dp"
+        android:background="@drawable/red"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:id="@+id/gallery"
+        android:layout_marginLeft="125dp"
+        android:src="@drawable/gallery" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/clockwise"
+        android:src="@drawable/rotate_cw1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="rotate+"
+        android:id="@+id/textView7" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/camera"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/camera2" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:src="@drawable/back"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="gallery"
+        android:id="@+id/textView2"
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="camera"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/pen1"
+        android:background="@drawable/pen22"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="195dp"/>
+
+
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/orange"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="325dp"
+        android:background="@drawable/orange"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/white"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="05dp"
+        android:background="@drawable/white"/>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/spray"
+        android:background="@drawable/spraycan"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="460dp"
+        android:layout_alignEnd="@+id/red" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/pencil"
+        android:background="@drawable/pen"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="70dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/brush"
+        android:background="@drawable/brush1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="460dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="310dp"
+        android:text="Save"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:src="@drawable/apply1"
+        android:id="@+id/save" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:id="@+id/anticlockwise"
+        android:src="@drawable/rotate_anticlockwise1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="47dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="rotate-"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="65dp"
+        android:id="@+id/color_layout">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:id="@+id/draw" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/exit"
+        android:src="@drawable/delete"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="580dp" />
+</RelativeLayout>

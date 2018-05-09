@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size">30dp</dimen>
+    <dimen name="float_width">100dp</dimen>
+    <dimen name="float_height">100dp</dimen>
+    <dimen name="redbtn">150dp</dimen>
+
+    <dimen name="main_box">190dp</dimen>
+
+    <dimen name="title">200dp</dimen>
+    <dimen name="camera_video">350dp</dimen>
+    <dimen name="text">180dp</dimen>
+
+    <dimen name="vid_text">240dp</dimen>
+
+    <dimen name="red_box">130dp</dimen>
+
+    <dimen name="media_icon">50dp</dimen>
+
+    <dimen name="main_comp_cam_vid">150dp</dimen>
+
+    <dimen name="icon_size">90dp</dimen>
+    <dimen name="box1">180dp</dimen>
+    <dimen name="box2">150dp</dimen>
+    <dimen name="box11">150dp</dimen>
+    <dimen name="box3">100dp</dimen>
+    <dimen name="box4">100dp</dimen>
+
+
+    <dimen name="em_button_h">50dp</dimen>
+    <dimen name="em_button_w">150dp</dimen>
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">SecurityApp</string>
+
+
+    <string name="audio_title">Audio</string>
+    <string name="audio_info">Tap the mic to start recording</string>
+
+
+    <string name="camera_title">Camera</string>
+
+
+    <string name="info_vid">Video mode:</string>
+    <string name="info1">Provides the ability to video record any incident occurring in real time and be able to send to authorities, send to family and friends or post on social media. Videos can also be saved on the phone or web server.</string>
+
+    <string name="info_audio">Audio mode:</string>
+    <string name="info2">Provides the ability to audio record any incident occurring in real time and be able to send to authorities, send to family and friends or post on social media. Audio can also be saved on the phone or web server.</string>
+
+    <string name="info_camera">Camera mode:</string>
+    <string name="info3">Provides the ability to take an instant picture of any real time event and can either share across may 3rd party applications or edit the image using image processing tools. Images can also be saved on the phone or web server.</string>
+
+    <string name="info_location">Location:</string>
+    <string name="info4">Provides the ability to find your location instantly with one tap, whilst also provide easy access to google maps.</string>
+
+    <string name="info_panic_button">Panic button:</string>
+    <string name="info6">1 Tap = Activate alarm system.</string>
+
+
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="location">Location</string>
+    <string name="emergency">Emergency numbers</string>
+
+
+    <string name="theft_title">Theft Prevention:</string>
+    <string name="info11">- On discovery of a fire Raise the alarm by operating the nearest break glass call point. </string>
+    <string name="info22">- Dial 8888 on the nearest internal telephone stating the location of the fire. (In Medical School and embedded units at QMC/City Hospital dial 2222)</string>
+    <string name="info33">- Attack the fire with nearest appropriate extinguisher if safe to do so and your escape route is clear.</string>
+    <string name="safety_title">On discovery of an alarm Attack the fire with nearest appropriate extinguisher if safe to do so and your escape route is clear.</string>
+    <string name="info55">- Leave the building immediately (with the exception of the Medical School). Do not use a lift and do not stop to collect personal belongings.</string>
+    <string name="info66"> - In an emergency or in case of serious injury, dial 8888 and ask for an ambulance.</string>
+    <string name="info77"> - For less serious injuries that require medical attention the injured person should attend the Accident and Emergency Department at the Queens Medical Centre, Nottingham.</string>
+    <string name="info88">Numbers to Remember:</string>
+
+    <string name="video_title">Video</string>
+
+
+    <string name="home">Home</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="info">Information</string>
+    <string name="safety_tips">Safety tips</string>
+    <string name="exit">Exit</string>
+
+    <string name="incident_emergency">Incident emergency</string>
+    <string name="medical_emergency">Medical emergency</string>
+    <string name="emergency_contacts">Emergency contacts</string>
+    <string name="fire_emergency">Fire emergency</string>
+
+
+    <string name="incident_text">Below are the following tools available to use in the case of incident emergency</string>
+    <string name="incident_cam">Camera</string>
+    <string name="incident_vid">Video</string>
+    <string name="incident_aud">Audio</string>
+    <string name="incident_gps">Location</string>
+    <string name="incident_btn1">Call the police</string>
+    <string name="incident_btn2">Nearby police stations</string>
+
+    <string name="incident_btn11">Call the ambulance</string>
+    <string name="incident_btn22">Nearby hospitals</string>
+
+    <string name="fire_text">Below are the following tools available to use in the case of a fire emergency</string>
+    <string name="medical_text">Below are the following tools and emergency numbers available to use in the case of a medical emergency</string>
+
+    <string name="incident_btn111">Call the Fire department</string>
+    <string name="incident_btn222">Nearby fire stations</string>
+
+    <string name="emergency_contact_text">Below are the following options available for emergency contacts</string>
+    <string name="view_contact">View contacts</string>
+    <string name="add_contacts">Add contacts</string>
+    <string name="send_contacts">Send to contacts</string>
+    <string name="group_contacts">Contact group chat</string>
+
+    <string name="profile">Profile page</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="camera">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+
+    <string-array name="image_filters">
+        <item>Blurring</item>
+        <item>Sharpening</item>
+        <item>Emboss</item>
+        <item>Black/white</item>
+        <item>Brightness</item>
+        <item>Negative</item>
+    </string-array>
+
+    <string-array name="video_options">
+        <item>Save</item>
+        <item>Share</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="image_save">
+        <item>Save</item>
+    </string-array>
+
+    <string-array name="audio_options">
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Save</item>
+    </string-array>
+
+    <string-array name="Languages">
+        <item>English</item>
+        <item>French</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>
